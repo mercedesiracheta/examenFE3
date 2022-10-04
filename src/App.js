@@ -34,7 +34,7 @@ function App() {
 
       <Tarjeta handleFavorita={handleFavorita}/>
 
-      <button onClick={() => {handleTema}}>Cambiar tema</button>
+      <button onClick={handleTema}>Cambiar tema</button>
     </div>
   );
 }
